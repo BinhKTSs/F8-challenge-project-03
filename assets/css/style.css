@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Public Sans", sans-serif;
+}
+input,
+textarea,
+button {
+    font: inherit;
+}
+
+:root {
+    --scondery-color: #e2eddf;
+    --primary-color: #152427;
+    --heading-color: #10375c;
+}
+/* ===================>COMMOM<=================== */
