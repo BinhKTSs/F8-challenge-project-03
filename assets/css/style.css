@@ -412,3 +412,207 @@ ol {
     font-weight: 500;
     line-height: calc(24 / 14);
 }
+
+/* ================> About-US<============== */
+.about-us-inner {
+    margin-top: 157px;
+    display: flex;
+    column-gap: 64px;
+}
+.about-media {
+    width: calc((591 / 1140) * 100%);
+    height: 557px;
+    border-radius: 210px;
+    position: relative;
+    flex-shrink: 0;
+}
+.about-media-bg {
+    width: 200px;
+    height: 200px;
+    background-color: #4dbb9a;
+    border-radius: 50%;
+    filter: blur(137px);
+
+    z-index: -1;
+    position: absolute;
+    top: 150px;
+    left: 230px;
+}
+.about-media-img {
+    width: 284px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 210px;
+    position: absolute;
+}
+.about-media-decor {
+    transform: scale(0.5);
+    position: absolute;
+    top: -401px;
+    left: -680px;
+}
+.about-media-img__left {
+    left: 0px;
+    bottom: 0px;
+}
+.about-media-img__eight {
+    right: 0px;
+    top: 13px;
+}
+.about-us-subinfo {
+    position: absolute;
+    bottom: 8px;
+    right: -9px;
+    width: 143px;
+
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 7px 54px 0px rgba(154, 154, 154, 0.25);
+    padding: 19px 23px 12px;
+}
+.about-us-subinfo__heading {
+    color: var(--Primary-color-black);
+    font-family: "Public Sans";
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.about-us-subinfo__desc {
+    margin-top: 6px;
+    color: var(--text-color-black-gray, #575d5e);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    opacity: 0.4;
+}
+.about-us-subinfo__number {
+    margin-top: 10px;
+    color: var(--Primary-color-black, #152427);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.subinfo-load-line {
+    display: flex;
+    margin-top: 3px;
+    position: relative;
+}
+.subinfo-load-line__top {
+    width: 40px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #83a17d;
+    z-index: 1;
+}
+.subinfo-load-line__bottom {
+    width: 96px;
+    height: 2px;
+    border-radius: 10px;
+    background: #eaeaea;
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+.about-us-subinfo__loading {
+    margin-top: 3px;
+    text-align: right;
+    color: var(--Primary-color-black, #152427);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.about-us-subinfo__dot {
+    margin-top: 3px;
+}
+.about-us-subinfo__team {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-us-subinfo__team--text {
+    color: var(--Primary-color-black, #152427);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.subinfo-team-avatar--img {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 1px solid #fff;
+    margin-left: -6px;
+}
+
+.about-content__desc-top {
+    color: var(--Primary-color-black, #152427);
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(18 / 16);
+    display: flex;
+    align-items: center;
+    column-gap: 21px;
+}
+.about-content__desc-top::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    background: var(--Primary-color-black, #152427);
+}
+.about-content__heading {
+    margin-top: 20px;
+}
+.about-content__desc {
+    margin-top: 11px;
+    color: var(--text-color-light-gray, #7d8188);
+
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625;
+}
+.about-content-info {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid #83a17d;
+    padding-bottom: 20px;
+}
+.about-content-info-top {
+    margin-top: 36px;
+}
+.about-content-info-bottom {
+    margin-top: 38px;
+}
+.about-content-info__number {
+    color: var(--Primary-color-black, #152427);
+
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2381;
+}
+.about-content-info__desc {
+    color: var(--text-color-light-gray, #7d8188);
+
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: calc(24 / 14);
+}
