@@ -619,7 +619,7 @@ ol {
 
 /* ================> our-process<============== */
 .our-proces-inner {
-    padding: 36px 0px 148px;
+    padding-top: 36px;
 }
 .top-process__highlight {
     color: var(--Primary-color-black, #152427);
@@ -644,37 +644,18 @@ ol {
 .list-process {
     margin-top: 81px;
 }
-.process-line {
-    width: 1131px;
-    height: 3px;
-    flex-shrink: 0;
-    background: linear-gradient(
-        180deg,
-        #83a17d 4.17%,
-        rgba(131, 161, 125, 0) 36.46%
-    );
-}
 .process-item {
     display: flex;
     align-items: center;
     position: relative;
     height: 185px;
-
+    border-radius: 33px;
     transition: 0.25s;
     padding: 57px 0px 54px 30px;
-    column-gap: 64px;
-    border-bottom: 3px solid #83a17d;
+    pa
 }
 .process-item:hover {
-    border-radius: 33px;
     background: var(--Scondery-color-light-green, #e2eddf);
-    border-bottom: none;
-}
-.process-item:hover .process-item-link {
-    text-decoration: underline;
-}
-.process-item:hover .process__line {
-    opacity: 0;
 }
 .our-process-img {
     position: absolute;
@@ -684,53 +665,27 @@ ol {
     bottom: 0px;
     right: 92px;
 }
-.process-item__number {
-    color: var(--Primary-color-black-green, #143c3c);
+.process-item__number{
+    color: var(--Primary-color-black-green, #143C3C);
 
-    font-family: Poppins;
-    font-size: 7.2rem;
-    font-weight: 600;
-    line-height: calc(52 / 72);
+
+font-family: Poppins;
+font-size: 7.2rem;
+font-weight: 600;
+line-height: calc(52 / 72);
 }
 
-.process-item__heading {
+.process-item__heading{
     color: var(--Primary-color-black, #152427);
-    font-family: Poppins;
-    font-size: 2.2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1;
-}
-.process-item-info {
-    position: relative;
+font-family: Poppins;
+font-size: 2.2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1;
+column-gap: 64px;
 }
 
-.process-item-link {
-    position: absolute;
-    color: var(--text-color-black-gray, #575d5e);
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    transition: 0.3s;
-    bottom: -30px;
-}
 
-.process-item__name {
-    display: flex;
-    align-items: center;
-    column-gap: 49px;
+.process-item-link{
+    
 }
-.process-item__desc {
-    max-width: 572px;
-    margin: 0px 41px 0px auto;
-    color: var(--text-color-light-gray, #7d8188);
-    font-family: "Public Sans";
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: calc(28 / 18);
-}
-
-/* ================> Videos<============== */
