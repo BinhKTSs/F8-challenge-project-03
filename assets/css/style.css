@@ -268,3 +268,18 @@ ol {
     right: 0px;
     transform: rotate(180deg);
 }
+/* ================> testimonial<============== */
+.testimonial-inner {
+    margin-top: 275px;
+    padding: 0px 121px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 201px;
+    border-radius: 100.5px;
+    background: var(--Scondery-color-light-green, #e2eddf);
+}
+.testimonial-brand--Agworld {
+    display: flex;
+    column-gap: 11px;
+}
