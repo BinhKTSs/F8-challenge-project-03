@@ -17,6 +17,7 @@ button {
     --heading-color: #10375c;
     --Primary-color-black-green: #143c3c;
     --text-color-black-gray: #575d5e;
+    ----text-color-light-gray: #7d8188;
 }
 /* ===================>COMMOM<=================== */
 .container {
@@ -71,6 +72,24 @@ ol {
     font-style: normal;
     font-weight: 500;
     line-height: calc(28 / 18);
+}
+.heading-3 {
+    color: var(--Primary-color-black);
+
+    font-family: Poppins;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(52 / 42);
+}
+.heading-h4 {
+    color: var(--Primary-color-black);
+
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
 }
 /* ===================>header<=================== */
 .header {
@@ -282,4 +301,114 @@ ol {
 .testimonial-brand--Agworld {
     display: flex;
     column-gap: 11px;
+}
+
+/* ================> Feature<============== */
+.feature-inner {
+    margin-top: 106px;
+}
+.feature-top {
+    display: flex;
+    justify-content: space-between;
+}
+.feature-top-desc {
+    color: var(--Primary-color-black);
+    margin-left: 46px;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625;
+    position: relative;
+}
+.feature-top-desc::before {
+    display: block;
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: var(--Primary-color-black);
+    position: absolute;
+    top: 9px;
+    left: -46px;
+}
+.feature-top-title {
+    max-width: 520px;
+    margin-top: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: relative;
+}
+.feature-top-title::after {
+    display: block;
+
+    content: "";
+    width: 66px;
+    height: 2px;
+    background: var(--Primary-color-black);
+    position: absolute;
+    bottom: 19px;
+    right: 103px;
+}
+.heading-contro {
+    margin-right: 73px;
+    margin-top: 79px;
+    display: flex;
+    column-gap: 17px;
+}
+.heading-contro__btn {
+    display: block;
+    width: 54px;
+    height: 54px;
+    border: none;
+    background: var(--scondery-color);
+    color: var(--Primary-color-black);
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.heading-contro__btn--right {
+    transform: rotate(180deg);
+}
+.heading-contro__btn:hover {
+    background-color: var(--Primary-color-black);
+    color: #fff;
+    cursor: pointer;
+}
+.feature-list {
+    margin-top: 76px;
+    display: flex;
+    column-gap: 16px;
+}
+.feature-item {
+    flex-grow: 1;
+    transition: 0.4s;
+}
+.feature-item:hover {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.feature-item__thumb {
+    max-width: 100%;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.feature-item-body {
+    padding: 24px 0px 23px 18px;
+}
+
+.feature-item-body__desc {
+    max-width: 268px;
+    display: block;
+    color: var(--text-color-light-gray, #7d8188);
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(24 / 14);
 }
